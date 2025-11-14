@@ -1,0 +1,3 @@
+Test POST :
+
+curl -X POST http://localhost:8000/api/packages -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3NjMwNDQwNjAsImV4cCI6MTc2MzA0NzY2MCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoiYWRtaW5AZXhhbXBsZS5jb20ifQ.WSpo5RMX_zqhoZHUjADU4NHwiQXprsr0sDP2Xj3xW-RWPECh_pX-7hYi7Bc6lcpOsxHUGnEFwXxYyGE8-yzMDDfAwDQFU1B9mxZiWuBbLxINM_fVO5LCTbyB6MdTDYrv9OrUM0HV58BfIaYAO5BPIIurZDqYeiHOYtDpAeZ4b-S07hDJaTOyXpOpufea--X8c2kF01yTwZPHvcaduUgLMrq5HfbiAgMX1RT7LJggkNuwZ7TiOXvNwGQHJO8upAt_BC0oqSR2rnGj4Ixlbli1l3qzSvi8jdQJjl-XsRb9X72e9-75QLbzOLG72oKuIkjx-vkgRuQR3maJN1TrC49_RQ" -H "Content-Type: application/json" -d '{"title": "Test package","image": "/test.png","duration": "3 days 1 night"}'
